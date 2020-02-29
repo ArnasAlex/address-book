@@ -1,0 +1,28 @@
+.user-row {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.user-row:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.user-row .picture {
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.user-row .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-row .email {
+  padding-top: 8px;
+  font-style: italic;
+}
+

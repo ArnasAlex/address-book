@@ -1,0 +1,15 @@
+.settings .title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.settings .row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.settings .label {
+  padding-right: 10px;
+}

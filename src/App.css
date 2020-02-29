@@ -1,0 +1,61 @@
+.limit-width {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app {
+  padding: 0 20px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 0 10px;
+}
+
+.app-title {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  padding: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.navigation a:hover {
+  border-bottom: 2px solid gray;
+}
+
+.navigation a.navigation-link-active {
+  border-bottom: 2px solid black;
+}
+
+.loading-page {
+  padding-top: 200px;
+}

@@ -1,0 +1,32 @@
+.users {
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+}
+
+.users .search {
+  top: 69px;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.users .search input {
+  width: 100%;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid lightgray;
+}
+
+.users .catalog-end {
+  text-align: center;
+  font-size: 24px;
+  padding: 30px 0;
+}

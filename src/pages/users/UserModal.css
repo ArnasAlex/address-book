@@ -1,0 +1,30 @@
+.user-modal {
+  display: flex;
+}
+
+.user-modal .picture {
+  border-radius: 5px;
+}
+
+.user-modal .details {
+  padding: 0 20px;
+  flex: 1;
+}
+
+.user-modal .name {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.user-modal .row {
+  display: flex;
+  padding: 2px 0;
+}
+
+.user-modal .label {
+  width: 100px;
+}
+
+.user-modal .value {
+  white-space: nowrap;
+}
